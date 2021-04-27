@@ -1,3 +1,5 @@
+using System;
+
 namespace ConsoleGameEngine {
   public class Vector2 {
     public float X;
