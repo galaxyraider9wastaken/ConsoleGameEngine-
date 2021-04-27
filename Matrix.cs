@@ -6,9 +6,9 @@ namespace ConsoleGameEngine {
     public float[][] M;
     public Matrix(Vector2 size){
       Size = size;
-      M = new float[size.x][];
+      M = new string[size.x][];
       for(int i=0;i<size.x;i++){
-        M[i] = new float[size.y];
+        M[i] = new string[size.y];
       }
     }
   }
