@@ -8,6 +8,10 @@ namespace ConsoleGameEngine{
     public Sprite(Vector2 size, string file){
       Size = size;
       File = file;
+      CSprite = new string[Size.x][];
+      for(int i=0;i<size.x;i++){
+        CSprite[i] = new string[Size.y];
+      }
     }
   }
 }
