@@ -1,7 +1,7 @@
 using System;
 
 namespace ConsoleGameEngine{
-  public class Sprites(){
+  public class Console(){
     public static void Draw(){
       
     }
