@@ -9,14 +9,11 @@ namespace ConsoleGameEngine{
     public Sprite(Vector2 size, string file){
       Size = size;
       SFile = file;
+      CSprite = new Matrix(Size);
       var fx = File.ReadAllLines(file);
-      var fy = new string[(int)Size.Y][];
-      var fym = new Matrix(Size);
-      for(int i =0;i<(int)Size.Y;i++){
-        fy[i] = fx[i].Split();
+      for(int i =0;i<(int)Size.X;i++){
+        CSprite.M[i] = fx[i].Split();
       }
-      fym.M = fy;
-      CSprite = fym;
     }
   }
 }
