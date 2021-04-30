@@ -14,8 +14,8 @@ namespace ConsoleGameEngine{
         CSprite[i] = new string[Size.Y];
       }
       var fx = File.ReadAllLines(file);
-      var fx = new string[Size.Y][];
-      for(int i =0;i<Size.Y;i++{
+      fx = new string[Size.Y][];
+      for(int i =0;i<Size.Y;i++){
         fy[i] = fx[i].split();
       }
       CSprite = fy;
