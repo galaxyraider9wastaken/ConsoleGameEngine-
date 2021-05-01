@@ -1,1 +1,0 @@
-I am currently working on a console only game engine for c# you can look over the code but please do not take any of the code.
